@@ -1,0 +1,60 @@
+% Created 2019-04-23 Tue 14:06
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\setcounter{secnumdepth}{3}
+\author{Keith Lancaster}
+\date{\today}
+\title{CIS 3368 Exam 2, Spring 2019}
+\hypersetup{
+ pdfauthor={Keith Lancaster},
+ pdftitle={CIS 3368 Exam 2, Spring 2019},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.2.2)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+Complete the problems listed below. There are automated tests to check almost all answers.
+
+
+\emph{Do NOT modify the test code in any way with the exception of uncommenting the code in the last GradeCalculator test!}
+
+
+\begin{enumerate}
+\item Run the application by running "Exam2Application". Write the code required so
+that when a user clicks the "Add Interest" button, a new research interest is
+created and added to the list of interests. The new interest should have its
+name taken from whatever text is in the adjacent text box. The new interest
+should \uline{not} be added to the professor.
+\item When an interest is added to the professor, it should be removed from the
+interest list. Fix the code so that the interest is removed when dragged to
+the professor.
+\item The "I am bored!" button currently does nothing. Add code to the application
+so that the button calls the "dropInterests" method in the "Professor" class,
+and then clears the list of interests for the professor (NOT the left hand
+list of unassigned interests).
+\item Write or modify code so that the tests in the GradeCalculatorTest file pass.
+Note that you will need to uncomment portions of the second test first.
+\end{enumerate}
+
+
+\section{Bonus:}
+\label{sec:org7161097}
+\begin{itemize}
+\item Modify the code so that the Bonus button does not move. When the button is clicked, it should print "Give me 5 points!" to the console.
+\end{itemize}
+\end{document}

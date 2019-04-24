@@ -1,0 +1,32 @@
+#+TITLE: CIS 3368 Exam 2, Spring 2019
+#+OPTIONS: toc:nil num:3 H:4 ^:nil pri:t
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="org.css"/>
+
+Complete the problems listed below. There are automated tests to check almost all answers.
+
+
+/Do NOT modify the test code in any way with the exception of uncommenting the code in the last GradeCalculator test!/
+
+
+ 1) Run the application by running "Exam2Application". Write the code required so
+    that when a user clicks the "Add Interest" button, a new research interest is
+    created and added to the list of interests. The new interest should have its
+    name taken from whatever text is in the adjacent text box. The new interest
+    should _not_ be added to the professor.
+ 2) When an interest is added to the professor, it should be removed from the
+    interest list. Fix the code so that the interest is removed when dragged to
+    the professor.
+ 3) The "I am bored!" button currently does nothing. Add code to the application
+    so that the button calls the "dropInterests" method in the "Professor" class,
+    and then clears the list of interests for the professor (NOT the left hand
+    list of unassigned interests).
+ 4) Write or modify code so that the tests in the GradeCalculatorTest file pass.
+    Note that you will need to uncomment portions of the second test first.
+
+
+** Bonus: 
+   - Modify the code so that the Bonus button does not move. When the button is clicked, it should print "Give me 5 points!" to the console.
+
+
+
+  
